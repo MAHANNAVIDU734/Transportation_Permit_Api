@@ -151,22 +151,22 @@ const TimwoodSchema = new mongoose.Schema({
   //     type: Number,
   //     required: true
   // },
-  Permitted_To_Mine: {
-    type: Boolean,
-    required: true,
-  },
-  Permitted_To_Mine_Date: {
-    type: Date,
-    default: Date,
-  },
-  Permitted_To_Mine_Start: {
-    type: Date,
-    default: Date,
-  },
-  Permitted_To_Mine_End: {
-    type: Date,
-    default: Date,
-  },
+  // Permitted_To_Mine: {
+  //   type: Boolean,
+  //   required: true,
+  // },
+  // Permitted_To_Mine_Date: {
+  //   type: Date,
+  //   default: Date,
+  // },
+  // Permitted_To_Mine_Start: {
+  //   type: Date,
+  //   default: Date,
+  // },
+  // Permitted_To_Mine_End: {
+  //   type: Date,
+  //   default: Date,
+  // },
   Permitted_To_Transport: {
     type: Boolean,
     required: true,
@@ -183,10 +183,10 @@ const TimwoodSchema = new mongoose.Schema({
     type: Date,
     default: Date,
   },
-  // Vehicle_number: {
-  //     type: String,
-  //     required: true
-  // },
+  Vehicle_number: {
+      type: String,
+      required: true
+  },
   // Location_intended_for_transportation: {
   //     type: String,
   //     required: true

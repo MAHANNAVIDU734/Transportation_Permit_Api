@@ -1,9 +1,9 @@
 import mongoose from "mongoose";
 
 const Connection = async (username, password) => {
-  // const URL = `mongodb+srv://${username}:${password}@cluster0.mb9i4g8.mongodb.net/transport_permits?retryWrites=true&w=majority`
-  const URL =
-    "mongodb+srv://trpermit:jwmWYMz1pWzSWL20@transportpermit.oa2tvoi.mongodb.net/trpermit?retryWrites=true&w=majority";
+  const URL = `mongodb+srv://${username}:${password}@cluster0.mb9i4g8.mongodb.net/transport_permits?retryWrites=true&w=majority`
+  //const URL =
+    //"mongodb+srv://trpermit:jwmWYMz1pWzSWL20@transportpermit.oa2tvoi.mongodb.net/trpermit?retryWrites=true&w=majority";
 
   try {
     // 1 - Current URL string parser is deprecated, and will be removed in a future version.
